@@ -2,15 +2,20 @@
 	"editors": [
 		{
 			"type": "method",
-			"id": 2147483622,
+			"id": 2147483644,
 			"codeDescriptor": {
-				"type": 11,
-				"className": "TaskEntity",
-				"methodPath": "/SOURCES/Classes/TaskEntity.4dm"
+				"type": 2,
+				"table": 1,
+				"formName": "inputForm",
+				"objectName": "PopupDate1",
+				"methodPath": "/SOURCES/TableForms/1/inputForm/ObjectMethods/PopupDate1.4dm"
 			}
 		},
 		{
-			"type": "explorer"
+			"type": "form",
+			"id": 365,
+			"table": 1,
+			"formName": "inputForm"
 		}
 	]
 }

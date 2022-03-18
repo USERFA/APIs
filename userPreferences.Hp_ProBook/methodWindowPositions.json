@@ -24,14 +24,14 @@
 		"height": 587
 	},
 	"Sources/TableForms/1/inputForm/ObjectMethods/field_deadline.4dm": {
-		"left": -80,
-		"top": 130,
+		"left": 0,
+		"top": 109,
 		"width": 1280,
 		"height": 587
 	},
 	"Sources/TableForms/1/inputForm/ObjectMethods/PopupDate1.4dm": {
-		"left": -80,
-		"top": 130,
+		"left": 0,
+		"top": 78,
 		"width": 1280,
 		"height": 587
 	},

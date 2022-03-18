@@ -2,7 +2,13 @@
 
 Case of 
 	: (Form event code:C388=On Data Change:K2:15)
-		[Task:1]deadline:4:=vDate1
+		If (vDate1>[Task:1]startingDate:3)
+			[Task:1]deadline:4:=vDate1
+		Else 
+			[Task:1]deadline:4:=[Task:1]startingDate:3
+			//ALERT("you selected an old day! your deadline will be set to today")
+		End if 
+		
 	: (Form event code:C388=On Load:K2:1)
 		
 		// Init the var itself

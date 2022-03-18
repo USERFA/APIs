@@ -23,7 +23,7 @@
 			<table_ref uuid="1680D3F9B764AF4498D213391837EA4D" name="Task"/>
 		</field_ref>
 	</index>
-	<base_extra>
+	<base_extra __stringCompHash="icu:68.1.0" __keywordBuildingHash="icu:68.1.0">
 		<journal_file journal_file_enabled="true"/>
 	</base_extra>
 </base>

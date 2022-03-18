@@ -7,8 +7,9 @@ Case of
 				ALERT:C41("A new task was added successfully !")
 				$empty:=False:C215
 			Else 
-				ALERT:C41("You forgot to fill some field")
-				$empty:=True:C214
+				//recursive loop
+				//$empty:=True
+				//ALERT("You forgot to fill some field")
 			End if 
 		End while 
 End case 

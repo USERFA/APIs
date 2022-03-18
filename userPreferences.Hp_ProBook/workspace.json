@@ -1,14 +1,8 @@
 {
 	"editors": [
 		{
-			"type": "form",
-			"id": 365,
-			"table": 1,
-			"formName": "inputForm"
-		},
-		{
 			"type": "method",
-			"id": 2147483580,
+			"id": 2147483638,
 			"codeDescriptor": {
 				"type": 2,
 				"table": 1,
@@ -16,6 +10,12 @@
 				"objectName": "Bouton image",
 				"methodPath": "/SOURCES/TableForms/1/inputForm/ObjectMethods/Bouton image.4dm"
 			}
+		},
+		{
+			"type": "form",
+			"id": 219,
+			"table": 1,
+			"formName": "inputForm"
 		}
 	]
 }

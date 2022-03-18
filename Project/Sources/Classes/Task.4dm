@@ -13,7 +13,7 @@ exposed Function create
 	$task.save()  //saving it ti the table
 	$0:=$task
 	
-	
+	//dataclass(ID)?$method=delete is added directly to the url path
 exposed Function remove
 	C_LONGINT:C283($1)  //ID
 	$tasks:=This:C1470.all()
@@ -35,7 +35,7 @@ exposed Function all_records
 	$0:=$tasks
 	
 	
-	
+	//to do so directly from postman: add $method=update at the end of the url + __KEY: ID of the entity to modify + complete:true
 exposed Function update
 	C_LONGINT:C283($1)
 	C_OBJECT:C1216($0)

@@ -1,0 +1,141 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 30,
+	"markerBody": 73,
+	"events": [
+		"onLoad"
+	],
+	"windowTitle": "window title",
+	"destination": "listScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"List Box": {
+					"type": "listbox",
+					"left": 1,
+					"top": 1,
+					"width": 1005,
+					"height": 203,
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"dataSource": "lb_tasks",
+					"listboxType": "currentSelection",
+					"table": 1,
+					"columns": [
+						{
+							"header": {
+								"text": "ID",
+								"name": "ent_id"
+							},
+							"name": "col_ID",
+							"footer": {
+								"name": "Pied1"
+							},
+							"events": [
+								"onLoad",
+								"onDataChange"
+							],
+							"dataSource": "[Task:1]ID:1"
+						},
+						{
+							"header": {
+								"name": "ent_label",
+								"text": "Label"
+							},
+							"name": "col_label",
+							"footer": {
+								"name": "Pied2"
+							},
+							"dataSource": "[Task:1]label:2"
+						},
+						{
+							"header": {
+								"name": "ent_startinDate",
+								"text": "Started on"
+							},
+							"name": "col_startingDate",
+							"footer": {
+								"name": "Pied3"
+							},
+							"dataSource": "[Task:1]startingDate:3"
+						},
+						{
+							"header": {
+								"name": "ent_deadline",
+								"text": "Deadline"
+							},
+							"name": "col_deadline",
+							"footer": {
+								"name": "Pied4"
+							},
+							"dataSource": "[Task:1]deadline:4"
+						},
+						{
+							"header": {
+								"name": "ent_priority",
+								"text": "Priority"
+							},
+							"name": "col_priority",
+							"footer": {
+								"name": "Pied5"
+							},
+							"dataSource": "[Task:1]priority:7"
+						},
+						{
+							"header": {
+								"name": "ent_status",
+								"text": "Status"
+							},
+							"name": "col_status",
+							"footer": {
+								"name": "Pied6"
+							},
+							"dataSource": "[Task:1]status:6"
+						},
+						{
+							"header": {
+								"name": "ent_details",
+								"text": "Details"
+							},
+							"name": "col_details",
+							"footer": {
+								"name": "Pied7"
+							},
+							"dataSource": "[Task:1]details:5",
+							"width": 220
+						}
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 26,
+	"markerFooter": 193,
+	"markerBreak": 193,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

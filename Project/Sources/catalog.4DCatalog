@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="APIs" uuid="DC7BEF5DCE14DF46AA9678836FB9D14B" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Task" uuid="1680D3F9B764AF4498D213391837EA4D" id="1">
+		<field name="ID" uuid="9491CBFC1A897743AC16D11C83D10CB2" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="label" uuid="379697092F799946A62D1CF2BA049E90" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="startingDate" uuid="D2A3B2509782D4439D5A8EB0101F07B7" type="8" never_null="true" id="3"/>
+		<field name="deadline" uuid="51B0CD399DD45845A0A90DDAB341433A" type="8" never_null="true" id="4"/>
+		<field name="details" uuid="5DF733BD70ADD042BE959B05D24F9DE1" type="10" never_null="true" id="5"/>
+		<field name="status" uuid="245917C93930144D885AA558537A1E95" type="10" limiting_length="255" never_null="true" id="6"/>
+		<field name="priority" uuid="A07DB7AAC258CF44BC1BF12FCAA3F61E" type="10" limiting_length="255" never_null="true" id="7"/>
+		<primary_key field_name="ID" field_uuid="9491CBFC1A897743AC16D11C83D10CB2"/>
+		<table_extra input_form="inputForm" output_form="outputForm">
+			<editor_table_info displayable_fields_count="7">
+				<color red="168" green="206" blue="226" alpha="255"/>
+				<coordinates left="413" top="38" width="179" height="206.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="8A42DFF8034B734EA49F86425A94BC47" type="7">
+		<field_ref uuid="9491CBFC1A897743AC16D11C83D10CB2" name="ID">
+			<table_ref uuid="1680D3F9B764AF4498D213391837EA4D" name="Task"/>
+		</field_ref>
+	</index>
+	<base_extra>
+		<journal_file journal_file_enabled="true"/>
+	</base_extra>
+</base>

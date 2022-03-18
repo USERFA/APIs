@@ -1,0 +1,42 @@
+{
+	"status": {
+		"editable": true,
+		"items": [
+			{
+				"text": "Done",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Currently working on",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Not Done yet",
+				"ref": 3,
+				"editable": true
+			}
+		]
+	},
+	"priority": {
+		"editable": true,
+		"items": [
+			{
+				"text": "High",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Medium",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Low",
+				"ref": 3,
+				"editable": true
+			}
+		]
+	}
+}

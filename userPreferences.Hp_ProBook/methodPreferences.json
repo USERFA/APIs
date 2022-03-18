@@ -52,5 +52,32 @@
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2022-03-18T09:41:50.062Z"
+	},
+	"Sources/Methods/import_tasks.4dm": {
+		"startSelection": 74,
+		"endSelection": 74,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-03-18T10:53:22.708Z"
+	},
+	"Sources/Classes/Task.4dm": {
+		"startSelection": 23,
+		"endSelection": 23,
+		"firstSelectedLine": 38,
+		"lastSelectedLine": 38,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-03-18T12:30:02.798Z"
+	},
+	"Sources/Classes/TaskEntity.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-03-18T12:26:42.478Z"
 	}
 }

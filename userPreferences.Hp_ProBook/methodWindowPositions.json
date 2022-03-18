@@ -34,5 +34,23 @@
 		"top": 130,
 		"width": 1280,
 		"height": 587
+	},
+	"Sources/Methods/import_tasks.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/Classes/Task.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/Classes/TaskEntity.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1280,
+		"height": 587
 	}
 }

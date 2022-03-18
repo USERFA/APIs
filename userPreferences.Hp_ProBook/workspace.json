@@ -11,18 +11,6 @@
 		},
 		{
 			"type": "explorer"
-		},
-		{
-			"type": "structure"
-		},
-		{
-			"type": "method",
-			"id": 2147483640,
-			"codeDescriptor": {
-				"type": 11,
-				"className": "Task",
-				"methodPath": "/SOURCES/Classes/Task.4dm"
-			}
 		}
 	]
 }

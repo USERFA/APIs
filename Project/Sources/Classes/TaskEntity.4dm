@@ -1,5 +1,6 @@
 Class extends Entity
 
+
 exposed Function remove_by_ID
 	C_LONGINT:C283($1)
 	
@@ -9,8 +10,9 @@ exposed Function remove_by_ID
 	Else 
 		$0:="You're trying to delete a non-existing entity"
 	End if 
-End for each 
-
+	
+	
+	
 exposed Function update_by_ID
 	C_OBJECT:C1216($1)
 	If (This:C1470#Null:C1517)
@@ -25,6 +27,8 @@ exposed Function update_by_ID
 	Else 
 		$0:="The object to modify does not exist"
 	End if 
+	
+	
 	
 exposed Function get_by_ID
 	C_OBJECT:C1216($0)

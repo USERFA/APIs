@@ -2,18 +2,6 @@
 	"editors": [
 		{
 			"type": "method",
-			"id": 2147483640,
-			"codeDescriptor": {
-				"type": 11,
-				"className": "Task",
-				"methodPath": "/SOURCES/Classes/Task.4dm"
-			}
-		},
-		{
-			"type": "explorer"
-		},
-		{
-			"type": "method",
 			"id": 2147483622,
 			"codeDescriptor": {
 				"type": 11,
@@ -22,7 +10,19 @@
 			}
 		},
 		{
+			"type": "explorer"
+		},
+		{
 			"type": "structure"
+		},
+		{
+			"type": "method",
+			"id": 2147483640,
+			"codeDescriptor": {
+				"type": 11,
+				"className": "Task",
+				"methodPath": "/SOURCES/Classes/Task.4dm"
+			}
 		}
 	]
 }

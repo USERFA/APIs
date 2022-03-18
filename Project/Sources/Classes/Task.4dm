@@ -29,7 +29,6 @@ exposed Function remove
 	
 	
 	
-	
 exposed Function all_records
 	$tasks:=This:C1470.all()
 	$0:=$tasks

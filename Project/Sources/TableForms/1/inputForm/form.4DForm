@@ -186,7 +186,8 @@
 						"onClick"
 					],
 					"picture": "Images/add_icon.png",
-					"action": "accept"
+					"action": "accept",
+					"method": "ObjectMethods/Bouton image.4dm"
 				},
 				"Bouton image1": {
 					"type": "pictureButton",

@@ -1,21 +1,21 @@
 {
 	"editors": [
 		{
-			"type": "method",
-			"id": 2147483644,
-			"codeDescriptor": {
-				"type": 2,
-				"table": 1,
-				"formName": "inputForm",
-				"objectName": "PopupDate1",
-				"methodPath": "/SOURCES/TableForms/1/inputForm/ObjectMethods/PopupDate1.4dm"
-			}
-		},
-		{
 			"type": "form",
 			"id": 365,
 			"table": 1,
 			"formName": "inputForm"
+		},
+		{
+			"type": "method",
+			"id": 2147483580,
+			"codeDescriptor": {
+				"type": 2,
+				"table": 1,
+				"formName": "inputForm",
+				"objectName": "Bouton image",
+				"methodPath": "/SOURCES/TableForms/1/inputForm/ObjectMethods/Bouton image.4dm"
+			}
 		}
 	]
 }

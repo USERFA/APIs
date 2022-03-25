@@ -2,14 +2,15 @@
 	"editors": [
 		{
 			"type": "method",
-			"id": 2147483638,
+			"id": 2147483646,
 			"codeDescriptor": {
-				"type": 2,
-				"table": 1,
-				"formName": "inputForm",
-				"objectName": "Bouton image",
-				"methodPath": "/SOURCES/TableForms/1/inputForm/ObjectMethods/Bouton image.4dm"
+				"type": 11,
+				"className": "Task",
+				"methodPath": "/SOURCES/Classes/Task.4dm"
 			}
+		},
+		{
+			"type": "explorer"
 		},
 		{
 			"type": "form",

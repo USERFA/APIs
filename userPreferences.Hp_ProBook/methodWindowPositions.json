@@ -36,10 +36,10 @@
 		"height": 587
 	},
 	"Sources/Methods/import_tasks.4dm": {
-		"left": 0,
-		"top": 78,
+		"left": 8,
+		"top": 109,
 		"width": 1280,
-		"height": 587
+		"height": 516
 	},
 	"Sources/Classes/Task.4dm": {
 		"left": 0,
@@ -54,9 +54,15 @@
 		"height": 587
 	},
 	"Sources/TableForms/1/inputForm/ObjectMethods/Bouton image.4dm": {
-		"left": 0,
-		"top": 78,
-		"width": 1280,
-		"height": 587
+		"left": 369,
+		"top": 171,
+		"width": 965,
+		"height": 549
+	},
+	"Sources/TableForms/1/inputForm/method.4dm": {
+		"left": 165,
+		"top": 183,
+		"width": 965,
+		"height": 549
 	}
 }

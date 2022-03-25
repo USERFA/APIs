@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><preferences stamp="2">
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="7">
 	<com.4d>
 		<web>
 			<standalone_server>
@@ -7,7 +7,22 @@
 					<server name="A_WebService"/>
 				</webservices>
 				<rest launch_at_startup="true"/>
+				<options>
+					<cors enabled="true">
+						<domain methods="GET;HEAD;POST;PUT" name="*"/>
+						<domain methods="" name=""/>
+					</cors>
+				</options>
 			</standalone_server>
 		</web>
+		<server>
+			<network>
+				<options publication_name="APIs"/>
+			</network>
+		</server>
+		<sql>
+			<publication port_number="19812"/>
+		</sql>
+		<php ip_address="127.0.0.1"/>
 	</com.4d>
 </preferences>

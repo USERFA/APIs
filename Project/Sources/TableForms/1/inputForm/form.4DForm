@@ -186,7 +186,7 @@
 						"onClick"
 					],
 					"picture": "Images/add_icon.png",
-					"action": "accept",
+					"action": "",
 					"method": "ObjectMethods/Bouton image.4dm"
 				},
 				"Bouton image1": {
@@ -300,5 +300,6 @@
 		"views": {
 			"View 1": {}
 		}
-	}
+	},
+	"method": "method.4dm"
 }

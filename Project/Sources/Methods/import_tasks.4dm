@@ -16,3 +16,33 @@
 //End if 
 //End for each 
 //End if 
+
+
+//ALL RECORDS([Task])
+//ORDER BY([Task]; [Task]label; <)
+
+//While (Not(End selection([Task]))
+
+//[Task]details:=[Task]details+"details........"
+//SAVE RECORD([Task])
+//NEXT RECORD([Task])
+
+
+//End while 
+
+
+
+
+
+//QUERY()
+//QUERY SELECTION()
+
+
+
+
+
+
+
+
+
+

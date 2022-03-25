@@ -14,6 +14,7 @@ exposed Function remove_by_ID
 	
 	
 exposed Function update_by_ID
+	//need tp check if all the att are not undefined so that if the user only inpuuted one att, the other should stay stable
 	C_OBJECT:C1216($1)
 	If (This:C1470#Null:C1517)
 		This:C1470.fromObject($1)

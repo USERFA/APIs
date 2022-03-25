@@ -10,6 +10,18 @@ exposed Function create
 	C_OBJECT:C1216($0)
 	$task:=This:C1470.new()
 	$task.fromObject($1)  //matching att by att the 2 objects (empty+input)
+	//If ($task.label="" | $task.details="")
+	//$task.label:=String($1.label)
+	//$task.details:=String($1.details)
+	//End if 
+	//If ($task.priority="" |  | $task.status="")
+	//$task.priority:=String($1.priority)
+	//$rask.status:=String($1.status)
+	//End if 
+	//If ($task.startingDate=!00-00-00! |  | $task.deadline=!00-00-00!)
+	//$task.startingDate:=Date($1.startingDate)
+	//$task.deadline:=Date($1.deadline)
+	//End if 
 	$task.save()  //saving it to the table
 	$0:=$task
 	

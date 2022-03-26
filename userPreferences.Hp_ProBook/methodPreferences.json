@@ -63,13 +63,13 @@
 		"stamp": "2022-03-21T12:24:47.462Z"
 	},
 	"Sources/Classes/Task.4dm": {
-		"startSelection": 9,
-		"endSelection": 9,
-		"firstSelectedLine": 23,
-		"lastSelectedLine": 23,
+		"startSelection": 28,
+		"endSelection": 28,
+		"firstSelectedLine": 42,
+		"lastSelectedLine": 42,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2022-03-25T17:44:43.848Z"
+		"stamp": "2022-03-26T23:04:20.508Z"
 	},
 	"Sources/Classes/TaskEntity.4dm": {
 		"startSelection": 120,

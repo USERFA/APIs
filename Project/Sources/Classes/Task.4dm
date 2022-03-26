@@ -41,8 +41,10 @@ exposed Function create
 	
 	
 exposed Function all_records
-	$tasks:=This:C1470.all()
-	$0:=$tasks
+	$tasks:=This:C1470.all()  //returns an object
+	//ts:=ALL RECORDS([Task])
+	//$0:=$ts
+	$0:=$tasks.toCollection()
 	
 	
 	//exposed Function update
